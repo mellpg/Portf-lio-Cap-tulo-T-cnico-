@@ -11,8 +11,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FFA300;">
     <div class="container-fluid">
         
-        <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/icon.png'); ?>" alt="<?php bloginfo('name'); ?>" height="40" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/icon.png' ); ?>" alt="<?php bloginfo('name'); ?>" height="40" class="d-inline-block align-text-top">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
