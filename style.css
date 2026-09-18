@@ -55,3 +55,9 @@ footer a:hover {
     /* Adiciona uma leve sombra para destacar o círculo amarelo no fundo amarelo */
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
 }
+
+.navbar-brand img {
+    height: 65px !important; /* Teste trocar para 50px ou 80px para ver a diferença */
+    width: auto;             /* Mantém a proporção redonda da imagem */
+    object-fit: contain;
+}
